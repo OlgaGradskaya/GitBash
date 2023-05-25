@@ -1,0 +1,4 @@
+1.Создать папку test 3 - mkdir test3
+2.Добавить в него три файла 4, 5 и 6, в каждом из которых должно быть по 4 строки row1, row2, row3, row4 - touch 4 5 6 && echo row1 >> 4 && echo row2 >> 4 && echo row3 >> 4 && echo row4  >> 4 && echo row1 >> 5 && echo row2 >> 5 && echo row3 >> 5 && echo row4 >> 5 && echo row1 >> 6 && echo row2 >> 6 && echo row3 >> 6 && echo row4 >> 6
+3.Найдите строку row2 в файле 5 - grep "row2" 5
+4.Найдите строку row в папке test3 - 
